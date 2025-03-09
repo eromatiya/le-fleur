@@ -1,0 +1,33 @@
+.home-page {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: block;
+}
+
+.intro-section { 
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/home/greeter-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.intro-section:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/home/grain-overlay.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.8;
+}
+
+.greeter-section {
+
+}
