@@ -1,8 +1,9 @@
 :root {
     --bg: #2D201D;
     --bg-alt: #2D201DEE;
-    --active: #7a574f;
+    --active-bg: #7a574f;
     --fg: #ffffff;
+    --active-fg: #F4AD1A;
 }
 
 * {
