@@ -1,0 +1,107 @@
+.nav-bar-container {
+    height: 160px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+nav.nav-bar {
+    width: 95%;
+    height: 100%;
+    border-radius: 16px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    background: #2D201D;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.5s;
+    
+}
+
+.nav-items {
+   
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left:3.5%;
+    padding-right:3.5%;
+    font-family: helvetica-compressed;
+    font-size: larger;
+    letter-spacing: 1px;
+
+
+    height: 100%;
+    width: 100%;
+    
+    /* Center Items */
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+    
+}
+
+@media (max-width: 1000px) {
+        .nav-bar-container {
+            height: 120px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+        }
+        
+        nav.nav-bar {
+            width: 95%;
+            height: 100%;
+            border-radius: 16px;
+            position: relative;
+            top: 0;
+            left: 0;
+            margin: 0 auto;
+            background: #2D201D;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            transition: transform 0.5s;
+            
+        }
+        
+        .nav-items {
+        
+            color: #FFFFFF;
+            text-decoration: none;
+            padding-left:3.5%;
+            padding-right:3.5%;
+            font-family: helvetica-compressed;
+            font-size: larger;
+            letter-spacing: 1px;
+        
+        
+            height: 100%;
+            width: 100%;
+            
+            /* Center Items */
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+        
+            
+        }
+    
+}
+
+.nav-bar-hidden {
+    transform: translateY(-100%);
+}
+
+#spam {
+    font-size: 30px;
+    font-family: kawit-italic;
+}

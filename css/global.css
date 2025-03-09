@@ -1,0 +1,12 @@
+:root {
+    --bg: #2D201D;
+    --bg-alt: #2D201DEE;
+    --active: #7a574f;
+    --fg: #f2f2f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--fg);
+}

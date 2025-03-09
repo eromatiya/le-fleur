@@ -1,0 +1,10 @@
+/* Load all CSS */
+@import url('normalize.css');
+@import url('global.css');
+@import url('font-face.css');
+@import url('navbar.css');
+
+#spam {
+    font-size: 30px;
+    font-family: kawit-italic;
+}

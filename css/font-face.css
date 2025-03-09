@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'helvetica';
+	font-style: normal;
+	src: url('../fonts/helvetica.ttf');
+}
+
+@font-face {
+	font-family: 'helvetica-compressed';
+	font-style: normal;
+	src: url('../fonts/helvetica-compressed.otf');
+}
+
+@font-face {
+	font-family: 'kawit-italic';
+	font-style: normal;
+	src: url('../fonts/kawitfree-italic.ttf');
+}
