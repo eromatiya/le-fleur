@@ -6,6 +6,7 @@
     left: 0;
     display: flex;
     z-index: 999;
+    pointer-events: none;
 }
 
 nav {
@@ -20,7 +21,7 @@ nav {
     top: 0;
     left: 0;
     margin: 0 auto;
-
+    pointer-events: auto;
 
     transition: transform 0.5s;
 }
@@ -63,6 +64,7 @@ nav a:hover:active, .control-bar a:hover:active {
 
 
 .control-menu {
+    pointer-events: auto;
     position: fixed;
     top: 0;
     right: 0;
