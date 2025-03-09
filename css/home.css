@@ -217,7 +217,7 @@
 
 }
 
-.preview-1-text-body  {
+.preview-1-text-body, .preview-2-text-body  {
     position: relative;
     max-width: 30%;
 }
@@ -226,41 +226,67 @@
     padding-bottom: 20px;
 }
 
-.preview-1-img-body > * {
-    border-radius: 24px;
-    margin-left: 40px;
-}
-
-.preview-img-1 {
+.preview-img {
     position: relative;
     top: 0;
     bottom: 0;
-    background-image: url(../assets/home/tattoo-prev/1.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: block;
+    border-radius: 24px;
+}
+
+#preview-img-1 {
+    background-image: url(../assets/home/tattoo-prev/1.png);
     width: 170px;
     height: 334px;
     max-width:253px;
     max-height:497px;
 }
 
-.preview-img-2 {
-    position: relative;
-    top: 0;
-    bottom: 0;
+#preview-img-2 {
     background-image: url(../assets/home/tattoo-prev/2.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: block;
     width: 200px;
     height: 394px;
     max-width:336px;
     max-height:662px;
 }
 
-.preview-1-img-body {
+#preview-img-3 {
+    background-image: url(../assets/home/tattoo-prev/3.png);
+    width: 200px;
+    height: 394px;
+    max-width:336px;
+    max-height:662px;
+    
+}
+
+#preview-img-4 {
+    background-image: url(../assets/home/tattoo-prev/4.png);
+    width: 170px;
+    height: 334px;
+    max-width:253px;
+    max-height:497px;
+}
+
+.preview-1-img-body > * {
+    margin-left: 40px;
+}
+
+.preview-2-img-body > * {
+    margin-right: 40px;
+}
+
+.preview-1-img-body, .preview-2-img-body {
     display: flex;
+}
+
+.preview-1-img-body {
+    margin-left: 120px;
+}
+
+.preview-2-img-body {
+    margin-right: 120px;
 }
 
 .preview-1-body {
@@ -272,11 +298,23 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding-top: 100px;
+    padding-top: 10px;
 
-    /* background-color: #ff0000; */
     height: 100%;
-    
+}
+
+.preview-2-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 180px;
+
+    height: 100%;
 }
 
 p.preview-text-title {
@@ -291,42 +329,12 @@ p.preview-text-msg {
     color: var(--fg);
 }
 
-/* .preview-1-body {
-    position: absolute;
-}
 
-.preview-1-text-body {
+.deals-section {
     position: relative;
+    width: 100%;
+    height: 40%;
+    top: -60px;
+    background-color: #000000;
+    z-index: -1;
 }
-
-p.preview-text-title {
-    font-family: kawit-italic;
-    font-size: 24pt;
-    color: var(--fg);
-}
-
-p.preview-text-msg {
-    font-family: helvetica;
-    font-size: 12pt;
-    color: var(--fg);
-}
-
-.preview-1-img-body {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-.preview-img-1 {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    background-image: url(../assets/home/tattoo-prev/1.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: block;
-    width: 253px;
-    height: 497px;
-    max-width:253px;
-    max-height:497px;
-} */
