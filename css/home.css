@@ -64,7 +64,7 @@
 
 .greeter-intro {
     font-family: kawit-italic;
-    font-size: 115pt;
+    font-size: 100pt;
 }
 
 .greeter-message {
@@ -72,7 +72,19 @@
     font-size: 14pt;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1514px) {
+    .greeter-intro {
+        font-size: 80pt;
+    }
+}
+
+@media (max-width: 1208px) {
+    .greeter-intro {
+        font-size: 70pt;
+    }
+}
+
+@media (max-width: 1058px) {
     .greeter-intro {
         font-size: 60pt;
     }
