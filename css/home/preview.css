@@ -49,6 +49,60 @@
     filter: blur(2px);
 }
 
+.flower-prev-body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.flower-prev {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    width: 200px;
+    height: 175px;
+    max-width: 200px;
+    max-height: 175px;
+    opacity: 0.5;
+}
+
+#flower-prev-tl {
+    background-image: url(../../assets/home/flower-prev/flower-prev-tl.png);
+}
+
+#flower-prev-tr {
+    position: absolute;
+    background-image: url(../../assets/home/flower-prev/flower-prev-tr.png);
+    left: auto;
+    bottom: auto;
+    right: 0;
+    top: 0;
+}
+
+#flower-prev-bl {
+    position: absolute;
+    background-image: url(../../assets/home/flower-prev/flower-prev-bl.png);
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+}
+
+#flower-prev-br {
+    position: absolute;
+    background-image: url(../../assets/home/flower-prev/flower-prev-br.png);
+    left: auto;
+    bottom: 0;
+    right: 0;
+    top: auto;
+}
+
+
 .preview-1-text-body, .preview-2-text-body  {
     position: relative;
     max-width: 30%;
@@ -90,7 +144,6 @@
     height: 394px;
     max-width:336px;
     max-height:662px;
-    
 }
 
 #preview-img-4 {
