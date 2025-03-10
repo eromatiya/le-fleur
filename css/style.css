@@ -3,4 +3,5 @@
 @import url('global.css');
 @import url('font-face.css');
 @import url('navbar.css');
-@import url('home.css');
+@import url('home/home.css');
+@import url('home/preview.css');
